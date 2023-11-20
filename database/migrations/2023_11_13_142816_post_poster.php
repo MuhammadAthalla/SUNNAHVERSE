@@ -17,7 +17,7 @@ return new class extends Migration
             $table->id();
             $table->string('judul_poster');
             $table->string('sumber_poster');
-            $table->string('deskripsi_poster');
+            $table->text('deskripsi_poster');
             $table->string('gambar_poster');
             $table->timestamps();
         });

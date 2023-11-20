@@ -17,8 +17,8 @@ return new class extends Migration
             $table->id();
             $table->string('judul_video');
             $table->string('sumber_video');
-            $table->string('deskripsi_video');
-            $table->string('video_dakwah');
+            $table->text('deskripsi_video');
+            $table->string('video_path');
             $table->timestamps();
         });
     }
